@@ -1,0 +1,104 @@
+img {
+    width: 200px;
+    height: 250px;
+}
+.display-4 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 108px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 46px;
+    margin-left: 15px;
+}
+.lead {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 55px;
+    margin-top: 30px;
+    margin-left: 27px;
+    
+    color: rgb(83, 83, 83);
+}
+a:hover{
+    transition: all 1.2s ease-out 0.2s;
+}
+span {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    font-variant: normal;
+}
+.modal-body img {
+    margin-top: -15px;
+    width: 350px;
+    height: 250px;
+}
+.modal-body {
+    background-color: rgb(201, 170, 130);
+}
+.modal-body p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+.modal-header {
+    background-color: rgb(201, 170, 130);
+}
+body{
+    
+    background-color: rgb(247, 206, 152);
+    background-image: url("");
+}
+.container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.jumbotron-fluid {
+    padding-bottom: 50px;
+}
+.jumbotron{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    background-color: rgb(201, 170, 130);
+    opacity: 0.9;
+}
+.jumbotron .header-container {
+    color: rgb(39, 36, 36);
+}
+.header-container {
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-left: 200px;
+}
+.card {
+    margin: 0 25px;
+    margin-top: 25px;
+    margin-bottom: 75px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    background-color: peachpuff;
+}
+.card:hover {
+    margin: 0 25px;
+    margin-top: 25px;
+    margin-bottom: 75px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(201, 170, 130);
+    border: black solid 0.5px;
+    box-shadow: 4px 3px;
+    cursor: pointer;
+}
+.card-img-top {
+    border-bottom: 1.5px solid steelblue;
+}
